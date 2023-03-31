@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="navbar.css">
+        <link rel="stylesheet" href="creator.css">
+    </head>
+    <body>
+
+        <br><br><br><br>
+
+        <div class="wrapper">
+            <div class="blog_post">
+              <div class="img_pod1">
+                <img src="../F5_Images/avatarlakshan1.jpg" alt="Avatar">
+              </div>
+              <div class="img_pod2">
+                <img src="../F5_Images/CW_Logo4.png" alt="Avatar">
+              </div>
+              <div class="container_copy">
+                <h1>Lakshan Costa</h1>
+                <h2>Student 2</h2>
+                <br>
+                <h1>Tasks:</h1>
+                <p>Navigation Bar <br> Query Form <br> External CSS</p> 
+                
+              </div>
+              <a class="btn_primary" href='queryForm.html'>Go Back</a>
+
+            </div>
+          </div>
+
+        
+    </body>
+</html>

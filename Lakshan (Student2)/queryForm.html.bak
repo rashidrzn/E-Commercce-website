@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="../F5.css">
+        <title>Query Form</title>
+        <script defer src="queryform.js"></script>
+    </head>
+
+    <body class="queryBody">
+
+        <header>
+            <img src="../F5_Images/CW_Logo4.png" class="logo" alt="logo" width="10%" height="10%">
+            <nav>
+                <ul class="navpages">
+                    <li><a href="../Lakshan (Student2)/mainPage.html">Home</a></li>
+                    <li><a href="../Rasidu (Student1)/buyProduct.html">Products</a></li>
+                    <li><a href="#">Form</a></li>
+                    <li><a href="../Rashid (Student3)/quiz.html">Quiz</a></li>
+                    <li><a href="../Yusuf (Student4)/SVG.html">SVG</a></li>
+                    <li><a href="#">Thumbnails</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="../Rashid (Student3)/img.html"><button>Student</button></a>
+        </header>
+
+        <br><br><br>
+
+
+
+
+
+
+
+        <div id="container"> 
+            <h2 id="heading">Query Form</h2>
+            <div id="error"></div>
+            <br>
+            <div id="formdiv">
+                <form id="form" method="POST">
+                <div>
+                    <label for="name">Name: </label>
+                    <input id="name" name="name" type="text">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email: </label>
+                    <input id="email" name="email" type="email"> <!-- not done with java script-->
+                </div>
+                <br>
+                <div>
+                    <label for="Delivery">Delivery</label>
+                    <input type="radio" id="Delivery" name="subject" checked>
+                    <label for="Product">Product</label> <!-- change this-->
+                    <input type="radio" id="Product" name="subject">
+                    <label for="Payment">Payment</label>
+                    <input type="radio" id="Payment" name="subject">
+        
+                </div>
+                <br>
+                <div>
+                    <textarea id="details" name="details" rows="6" cols="80" w></textarea>
+                </div>
+                <br>
+                <button id="checkbutton" onclick=submitform()>Check</button>
+                <input type="submit" id="formbutton" value="Submit" onclick=validateForm()>
+            
+                
+            </form>
+                
+                <!-- <input type="button" onclick="ReplaceForm()" value="Submit" id="formbutton"> -->
+            
+        </div>
+            
+        <div id="for_replacement">
+        
+            <div id="display_replacment" style="display: none;">
+                <form id="edit">
+                
+                    <label for="name_submit">Name: </label><span id="name"></span>
+                    <span id="display_name"></span><br><br>
+    
+                    <label for="email_submit">Email: </label><span id="email"></span>
+                    <span id="display_email"></span><br><br>
+    
+                    <label for="subject_submit">Subject: </label>
+                    <span id="display_subject"></span><br><br>
+    
+                    <label for="details_submit">Details: </label>
+                    <span id="display_details"></span><br><br>
+
+
+                    <input type="submit" id="formbutton" value="Edit" onclick=editform()>
+                   
+                    
+                    
+                    
+                    <!-- <input type="button" onclick="cancel()" value="Edit" id="formbutton"> -->
+    
+                </form>
+            </div>
+        </div> 
+			
+		<div id="creator">
+			<h3><a href="creator.html" class="pageDeveloperLink">Page Developer</a></h3>
+		</div>
+        
+        
+    </body>
+</html>

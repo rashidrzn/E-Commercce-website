@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	
+		<meta charset="UTF-8">
+		<title>Additional Content Page</title>
+		<link rel="stylesheet" href="F5.css">
+
+		<script>
+		
+				// [1] SriLanka :-
+			function displaySLC() {
+				var SLC_Details = "<p class=achievement>ODI WORLD CUP<br>Final apperance: 3<br>Winners: 1<br>Runners-up: 2</p><p>The Sri Lanka National Men's Cricket Team, nicknamed The Lions, represents Sri Lanka in men's international cricket. It is a Full Member of the International Cricket Council with Test, One-Day International and T20 International status.</p>";
+				document.querySelector("#SL_Details").innerHTML = SLC_Details;
+			}
+			
+				// [2] India :-
+			function displayINC() {
+				var INC_Details = "<p class=achievement>ODI WORLD CUP<br>Final apperance: 3<br>Winners: 2<br>Runners-up: 1</p><p>The India men's national cricket team, also known as Team India or the Men in Blue, represents India in men's international cricket. It is governed by the Board of Control for Cricket in India, and is a Full Member of the International Cricket Council with Test, One Day International and Twenty20 International status.</p>";
+				document.querySelector("#IN_Details").innerHTML = INC_Details;
+			}
+			
+				// [3] Pakistan :-
+			function displayPAC() {
+				var PAC_Details = "<p class=achievement>ODI WORLD CUP<br>Final apperance: 2<br>Winners: 1<br>Runners-up: 1</p><p>The Pakistan national cricket team, often referred to as the Shaheens, Green Shirts, Men in Green, and Cornered Tigers is administered by the Pakistan Cricket Board.</p>";
+				document.querySelector("#PA_Details").innerHTML = PAC_Details;
+			}
+			
+				// [4] England :-
+			function displayENC() {
+				var ENC_Details = "<p class=achievement>ODI WORLD CUP<br>Final apperance: 4<br>Winners: 1<br>Runners-up: 3</p><p>The England cricket team represents England and Wales in international cricket. Since 1997, it has been governed by the England and Wales Cricket Board, having been previously governed by Marylebone Cricket Club since 1903.</p>";
+				document.querySelector("#EN_Details").innerHTML = ENC_Details;
+			}
+			
+				// [5] South Africa :-
+			function displaySAC() {
+				var SAC_Details = "<p class=failure>ODI WORLD CUP<br>Final apperance: 0<br>Winners: 0<br>Runners-up: 0</p><p>The South Africa national cricket team, also known as the Proteas, represents South Africa in men's international cricket and is administered by Cricket South Africa. South Africa is a full member of the International Cricket Council, with Test, One-Day International and Twenty20 International status.</p>";
+				document.querySelector("#SA_Details").innerHTML = SAC_Details;
+			}
+			
+				// [6] Afghanistan :-
+			function displayAFC() {
+				var AFC_Details = "<p class=failure>ODI WORLD CUP<br>Final apperance: 0<br>Winners: 0<br>Runners-up: 0</p><p>The Afghanistan men's national team represents Afghanistan in international cricket. Cricket has been played in Afghanistan since the mid-19th century, but it was only in the early 21st century that the national team began to enjoy success.</p>";
+				document.querySelector("#AF_Details").innerHTML = AFC_Details;
+			}
+			
+				// [7] Bangladesh :-
+			function displayBAC() {
+				var BAC_Details = "<p class=failure>ODI WORLD CUP<br>Final apperance: 0<br>Winners: 0<br>Runners-up: 0</p><p>The Bangladesh men's national cricket team, popularly known as The Tigers, is administered by the Bangladesh Cricket Board. It is a Full Member of the International Cricket Council with Test, One-Day International and T20 International status.</p>";
+				document.querySelector("#BA_Details").innerHTML = BAC_Details;
+			}
+			
+				// [8] Australia :-
+			function displayAUC() {
+				var AUC_Details = "<p class=achievement>ODI WORLD CUP<br>Final apperance: 7<br>Winners: 5<br>Runners-up: 2</p><p>The Australia men's national cricket team represents Australia in men's international cricket. As the joint oldest team in Test cricket history, playing in the first ever Test match in 1877,[9] the team also plays One-Day International (ODI) and Twenty20 International (T20I) cricket.</p>";
+				document.querySelector("#AU_Details").innerHTML = AUC_Details;
+			}
+			
+				// [9] West Indies :-
+			function displayWIC() {
+				var WIC_Details = "<p class=achievement>ODI WORLD CUP<br>Final apperance: 3<br>Winners: 2<br>Runners-up: 1</p><p>The West Indies cricket team, nicknamed the Windies, is a multi-national men's cricket team representing the mainly English-speaking countries and territories in the Caribbean region and administered by Cricket West Indies.</p>";
+				document.querySelector("#WI_Details").innerHTML = WIC_Details;
+			}
+			
+				// [10] New Zealand :-
+			function displayNZC() {
+				var NZC_Details = "<p class=achievement>ODI WORLD CUP<br>Final apperance: 2<br>Winners: 0<br>Runners-up: 2</p><p>The New Zealand national cricket team represents New Zealand in men's international cricket. Named the Black Caps, they played their first Test in 1930 against England in Christchurch, becoming the fifth country to play Test cricket.</p>";
+				document.querySelector("#NZ_Details").innerHTML = NZC_Details;
+			}
+		
+		</script>
+		
+	</head>
+	
+	<body class="contentBody">
+	
+		<header id="navHeaderContent">
+            <img src="F5_Images/CW_Logo4.png" class="logo" alt="logo" width="10%" height="10%">
+            <nav>
+                <ul class="navpages">
+                    <li><a href="Lakshan (Student2)/mainPage.html">Home</a></li>
+                    <li><a href="Rasidu (Student1)/buyProduct.html">Products</a></li>
+                    <li><a href="Lakshan (Student2)/queryForm.html">Form</a></li>
+                    <li><a href="Rashid (Student3)/quiz.html">Quiz</a></li>
+                    <li><a href="Yusuf (Student4)/SVG.html">SVG</a></li>
+					<li><a href="#">Thumbnails</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="Rashid (Student3)/img.html"><button class="contactButton">Students</button></a>
+        </header>
+	
+		<form>
+			
+			<h1 id="ACP_Topic">TOP CRICKETING NATIONS</h1>
+			
+			<img id="team" src="F5_Images/team.jpg" alt="Team Image" width="900px" height="290px" usemap="#teamMap">
+			<map name="teamMap">
+				<area shape="rect" coords="40,36,117,270" alt="NZ" href="#New_Zealand">
+				<area shape="rect" coords="125,153,220,285" alt="IN" href="#India">
+				<area shape="rect" coords="228,64,320,209" alt="SA" href="#South_Africa">
+				<area shape="rect" coords="333,67,415,233" alt="EN" href="#England">
+				<area shape="rect" coords="442,68,525,148" alt="SL" href="#SriLanka">
+				<area shape="rect" coords="435,156,515,277" alt="PA" href="#Pakistan">
+				<area shape="rect" coords="542,60,633,147" alt="AF" href="#Afghanistan">
+				<area shape="rect" coords="535,157,638,284" alt="AU" href="#Australia">
+				<area shape="rect" coords="649,72,736,281" alt="BA" href="#Bangladesh">
+				<area shape="rect" coords="744,10,843,277" alt="WI" href="#West_Indies">
+			</map>
+			
+			<!-- ------ SriLanka ------ -->
+			<div id="SriLanka">
+				<input type="button" class="SLC" name="SL_Button" value="SRI LANKA" onclick="displaySLC();">
+				<div id="SL_Details"></div>
+			</div>
+			
+			<!-- ------ India ------ -->
+			<div id="India">
+				<input type="button" class="INC" name="IN_Button" value="INDIA" onclick="displayINC();">
+				<div id="IN_Details"></div>
+			</div>
+			
+			<!-- ------ Pakistan ------ -->
+			<div id="Pakistan">
+				<input type="button" class="PAC" name="PA_Button" value="PAKISTAN" onclick="displayPAC();">
+				<div id="PA_Details"></div>
+			</div>
+			
+			<!-- ------ England ------ -->
+			<div id="England">
+				<input type="button" class="ENC" name="EN_Button" value="ENGLAND" onclick="displayENC();">
+				<div id="EN_Details"></div>
+			</div>
+			
+			<!-- ------ South Africa ------ -->
+			<div id="South_Africa">
+				<input type="button" class="SAC" name="SA_Button" value="SOUTH AFRICA" onclick="displaySAC();">
+				<div id="SA_Details"></div>
+			</div>
+			
+			<!-- ------ Afghanistan ------ -->
+			<div id="Afghanistan">
+				<input type="button" class="AFC" name="AF_Button" value="AFGHANISTAN" onclick="displayAFC();">
+				<div id="AF_Details"></div>
+			</div>
+			
+			<!-- ------ Bangladesh ------ -->
+			<div id="Bangladesh">
+				<input type="button" class="BAC" name="BA_Button" value="BANGLADESH" onclick="displayBAC();">
+				<div id="BA_Details"></div>
+			</div>
+			
+			<!-- ------ Australia ------ -->
+			<div id="Australia">
+				<input type="button" class="AUC" name="AU_Button" value="AUSTRALIA" onclick="displayAUC();">
+				<div id="AU_Details"></div>
+			</div>
+			
+			<!-- ------ West Indies ------ -->
+			<div id="West_Indies">
+				<input type="button" class="WIC" name="WI_Button" value="WEST INDIES" onclick="displayWIC();">
+				<div id="WI_Details"></div>
+			</div>
+			
+			<!-- ------ New Zealand ------ -->
+			<div id="New_Zealand">
+				<input type="button" class="NZC" name="NZ_Button" value="NEW ZEALAND" onclick="displayNZC();">
+				<div id="NZ_Details"></div>
+			</div>
+			
+			<!-- ------ Back to top ------ -->
+			<div class="backToTop">
+				<img id="arrowIcon" src="F5_Images/arrow.png" alt="Arrow Image" width="20px" height="50px" style="float:left">
+				<br>
+				<a href="#navHeaderContent" class="back_Top">BACK TO TOP</a>
+			</div>
+			
+			<!-- ------ Page Developer ------ -->
+			<div class="allStudentContent">
+				<h3><a href="Rashid (Student3)/img.html" class="pageDeveloperLink">Page Developer</a></h3>
+			</div>
+			
+		</form>
+	
+	</body>
+</html>

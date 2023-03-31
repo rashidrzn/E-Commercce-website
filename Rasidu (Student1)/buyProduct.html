@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+	
+		<meta charset="UTF-8">
+	
+		<title>Products Page</title>
+		
+		<link rel="stylesheet" href="../F5.css">
+		
+	</head>
+	
+	<body class="productBody">
+	
+		<script type="text/javascript" src="ProductScript.js"></script>
+		
+		<header id="navHeaderProduct">
+            <img src="../F5_Images/CW_Logo4.png" class="logo" alt="logo" width="10%" height="10%">
+            <nav>
+                <ul class="navpages">
+                    <li><a href="../Lakshan (Student2)/mainPage.html">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="../Lakshan (Student2)/queryForm.html">Form</a></li>
+                    <li><a href="../Rashid (Student3)/quiz.html">Quiz</a></li>
+                    <li><a href="../Yusuf (Student4)/SVG.html">SVG</a></li>
+					<li><a href="#">Thumbnails</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="../Rashid (Student3)/img.html"><button class="contactButton">Students</button></a>
+        </header>
+
+		<form novalidate> 
+			
+			<fieldset class="personal_F">
+				<legend id="personal_D">Personal Details</legend>
+				
+				<label for="nameId">Name: </label>
+					<input type="text" name="name" id="nameId" placeholder="Enter Your Name">
+					<br><br>
+					
+				<label for="emailId">Email: </label>
+					<input type="email" name="email" id="emailId" placeholder="Enter Your Email Address">
+					<br><br>
+				
+				<label for="addressId">Address:</label>
+					<textarea name="address" id="addressId" rows="1" cols="40" placeholder="Enter Your Home Address"></textarea>
+					<br><br>
+					
+				<label for="telId">Mobile No: </label>
+					<input type="tel" name="tel" id="telId" placeholder="Enter Your Phone Number">
+					<br><br>
+			</fieldset>
+			
+			<fieldset class="product_F">
+				<legend id="product_D">Product Details</legend>
+				
+					<!-- -------------------- [1] BAGS & LUGGAGES -------------------- -->
+				
+					<div class="ProductBag">
+						<img src="../F5_Images/bag.png" alt="Bag Image" width="120px" height="120px">
+						<br>
+						
+						<label class="Products">BAGS & LUGGAGES</label>
+						<br><br>
+						
+						<label for="bagTypeId">Type:</label>
+						<input name="bagType" list="bagTypeList" id="bagTypeId">
+						<datalist id="bagTypeList">
+							<option value="Bat Cover">
+							<option value="Wheelie Bag">
+							<option value="Duffle Bag">
+						</datalist>
+						<br><br>
+						
+						<label for="bagBrandId">Brand:</label>
+						<input name="bagBrand" list="bagBrandList" id="bagBrandId">
+						<datalist id="bagBrandList">
+							<option value="Gunn & Moore (GM)">
+							<option value="Kookaburra">
+							<option value="New Balance">
+						</datalist>
+						<br><br>
+						
+						<label for="bagQuantityId">Quantity:</label>
+							<input type="number" name="bagQuantity" id="bagQuantityId" min="0" max="100">
+						<br><br>
+						
+						<label class="addTo" for="bagId">Add to cart</label>
+							<input type="checkbox" name="bag" id="bagId" onclick="bagCartSelect();">
+							<img src="../F5_Images/cart.png" alt="Cart Image" width="20px" height="20px">
+							
+						<div id="bagPrice"></div>
+							
+					</div>
+					
+					<!-- -------------------- [2] BATS -------------------- -->
+			
+					<div class="ProductBat">
+						<img src="../F5_Images/bat.png" alt="Bat Image" width="110px" height="220px">
+						<br>
+						
+						<label class="Products">BATS</label>
+						<br><br>
+						
+						<label for="batTypeId">Type:</label>
+						<input name="batType" list="batTypeList" id="batTypeId">
+						<datalist id="batTypeList">
+							<option value="Size 1">
+							<option value="Size 2">
+							<option value="Size 3">
+						</datalist>
+						<br><br>
+						
+						<label for="batBrandId">Brand:</label>
+						<input name="batBrand" list="batBrandList" id="batBrandId">
+						<datalist id="batBrandList">
+							<option value="MRF">
+							<option value="Kookaburra">
+							<option value="SS">
+						</datalist>
+						<br><br>
+						
+						<label for="batQuantityId">Quantity:</label>
+							<input type="number" name="batQuantity" id="batQuantityId" min="0" max="100">
+						<br><br>
+						
+						<label class="addTo" for="batId">Add to cart</label>
+							<input type="checkbox" name="bat" id="batId" onclick="batCartSelect();">
+							<img src="../F5_Images/cart.png" alt="Cart Image" width="20px" height="20px">
+							
+						<div id="batPrice"></div>
+							
+					</div>
+					
+					<!-- -------------------- [3] HEAD WEARS -------------------- -->
+					
+					<div class="ProductHeadWears">
+						<img src="../F5_Images/helmet.png" alt="Helmet Image" width="120px" height="120px">
+						<br>
+						
+						<label class="Products">HEAD WEARS</label>
+						<br><br>
+						
+						<label for="headWearTypeId">Type:</label>
+						<input name="headWearType" list="headWearTypeList" id="headWearTypeId">
+						<datalist id="headWearTypeList">
+							<option value="Helmets">
+							<option value="Caps">
+						</datalist>
+						<br><br>
+						
+						<label for="headWearBrandId">Brand:</label>
+						<input name="headWearBrand" list="headWearBrandList" id="headWearBrandId">
+						<datalist id="headWearBrandList">
+							<option value="Adidas">
+							<option value="Ayrtek">
+							<option value="Gunn & Moore (GM)">
+						</datalist>
+						<br><br>
+						
+						<label for="headWearQuantityId">Quantity:</label>
+							<input type="number" name="headWearQuantity" id="headWearQuantityId" min="0" max="100">
+						<br><br>
+						
+						<label class="addTo" for="headWearId">Add to cart</label>
+							<input type="checkbox" name="headWear" id="headWearId" onclick="headWearCartSelect();">
+							<img src="../F5_Images/cart.png" alt="Cart Image" width="20px" height="20px">
+							
+						<div id="headWearPrice"></div>
+							
+					</div>
+					
+					<!-- -------------------- [4] BALLS -------------------- -->
+					
+					<div class="ProductBall">
+						<img src="../F5_Images/ball.png" alt="Ball Image" width="120px" height="120px">
+						<br>
+						
+						<label class="Products">BALLS</label>
+						<br><br>
+						
+						<label for="ballTypeId">Type:</label>
+						<input name="ballType" list="ballTypeList" id="ballTypeId">
+						<datalist id="ballTypeList">
+							<option value="Red">
+							<option value="Pink">
+							<option value="White">
+						</datalist>
+						<br><br>
+						
+						<label for="ballBrandId">Brand:</label>
+						<input name="ballBrand" list="ballBrandList" id="ballBrandId">
+						<datalist id="ballBrandList">
+							<option value="SS">
+							<option value="Kookaburra">
+							<option value="Gorton Shire">
+						</datalist>
+						<br><br>
+						
+						<label for="ballQuantityId">Quantity:</label>
+							<input type="number" name="ballQuantity" id="ballQuantityId" min="0" max="100">
+						<br><br>
+						
+						<label class="addTo" for="ballId">Add to cart</label>
+							<input type="checkbox" name="ball" id="ballId" onclick="ballCartSelect();">
+							<img src="../F5_Images/cart.png" alt="Cart Image" width="20px" height="20px">
+							
+						<div id="ballPrice"></div>
+							
+					</div>
+					
+					<!-- -------------------- [5] GLOVES -------------------- -->
+					
+					<div class="ProductGloves">
+						<img src="../F5_Images/glovesBat.png" alt="glovesBat Image" width="120px" height="120px">
+						<br>
+						
+						<label class="Products">GLOVES</label>
+						<br><br>
+						
+						<label for="gloveTypeId">Type:</label>
+						<input name="gloveType" list="gloveTypeList" id="gloveTypeId">
+						<datalist id="gloveTypeList">
+							<option value="Batting Gloves">
+							<option value="Keeping Gloves">
+						</datalist>
+						<br><br>
+						
+						<label for="gloveBrandId">Brand:</label>
+						<input name="gloveBrand" list="gloveBrandList" id="gloveBrandId">
+						<datalist id="gloveBrandList">
+							<option value="SF">
+							<option value="Kookaburra">
+							<option value="SG">
+						</datalist>
+						<br><br>
+						
+						<label for="gloveQuantityId">Quantity:</label>
+							<input type="number" name="gloveQuantity" id="gloveQuantityId" min="0" max="100">
+						<br><br>
+						
+						<label class="addTo" for="gloveId">Add to cart</label>
+							<input type="checkbox" name="glove" id="gloveId" onclick="gloveCartSelect();">
+							<img src="../F5_Images/cart.png" alt="Cart Image" width="20px" height="20px">
+							
+						<div id="glovePrice"></div>
+							
+					</div>
+					
+					<!-- -------------------- [6] CLOTHS -------------------- -->
+					
+					<div class="ProductCloth">
+						<img src="../F5_Images/cloth.png" alt="Cloth Image" width="120px" height="120px">
+						<br>
+						
+						<label class="Products">CLOTHS</label>
+						<br><br>
+						
+						<label for="clothTypeId">Type:</label>
+						<input name="clothType" list="clothTypeList" id="clothTypeId">
+						<datalist id="clothTypeList">
+							<option value="T-Shirt (Size S)">
+							<option value="T-Shirt (Size M)">
+							<option value="T-Shirt (Size L)">
+							<option value="Long Sleeves (Size S)">
+							<option value="Long Sleeves (Size M)">
+							<option value="Long Sleeves (Size L)">
+							<option value="Pants (Size S)">
+							<option value="Pants (Size M)">
+							<option value="Pants (Size L)">
+						</datalist>
+						<br><br>
+						
+						<label for="clothBrandId">Brand:</label>
+						<input name="clothBrand" list="clothBrandList" id="clothBrandId">
+						<datalist id="clothBrandList">
+							<option value="SG">
+							<option value="SS">
+						</datalist>
+						<br><br>
+						
+						<label for="clothQuantityId">Quantity:</label>
+							<input type="number" name="clothQuantity" id="clothQuantityId" min="0" max="100">
+						<br><br>
+						
+						<label class="addTo" for="clothId">Add to cart</label>
+							<input type="checkbox" name="cloth" id="clothId" onclick="clothCartSelect();">
+							<img src="../F5_Images/cart.png" alt="Cart Image" width="20px" height="20px">
+							
+						<div id="clothPrice"></div>
+							
+					</div>
+					
+					<!-- -------------------- [7] PADS -------------------- -->
+					
+					<div class="ProductPads">
+						<img src="../F5_Images/pads.png" alt="Pad Image" width="120px" height="160px">
+						<br>
+						
+						<label class="Products">PADS</label>
+						<br><br>
+						
+						<label for="padTypeId">Type:</label>
+						<input name="padType" list="padTypeList" id="padTypeId">
+						<datalist id="padTypeList">
+							<option value="Boys Size">
+							<option value="Youth Size">
+							<option value="Men's Size">
+						</datalist>
+						<br><br>
+						
+						<label for="padBrandId">Brand:</label>
+						<input name="padBrand" list="padBrandList" id="padBrandId">
+						<datalist id="padBrandList">
+							<option value="New Balance">
+							<option value="SS">
+							<option value="MRF">
+						</datalist>
+						<br><br>
+						
+						<label for="padQuantityId">Quantity:</label>
+							<input type="number" name="padQuantity" id="padQuantityId" min="0" max="100">
+						<br><br>
+						
+						<label class="addTo" for="padId">Add to cart</label>
+							<input type="checkbox" name="pad" id="padId" onclick="padCartSelect();">
+							<img src="../F5_Images/cart.png" alt="Cart Image" width="20px" height="20px">
+							
+						<div id="padPrice"></div>
+							
+					</div>
+					
+					<!-- -------------------- [8] STUMPS -------------------- -->
+					
+					<div class="ProductStumps">
+						<img src="../F5_Images/stumps.png" alt="Stumps Image" width="55px" height="175px">
+						<br>
+						
+						<label class="Products">STUMPS</label>
+						<br><br>
+						
+						<label for="stumpsTypeId">Type:</label>
+						<input name="stumpsType" list="stumpsTypeList" id="stumpsTypeId">
+						<datalist id="stumpsTypeList">
+							<option value="Bails">
+							<option value="Stumps">
+						</datalist>
+						<br><br>
+						
+						<label for="stumpsBrandId">Brand:</label>
+						<input name="stumpsBrand" list="stumpsBrandList" id="stumpsBrandId">
+						<datalist id="stumpsBrandList">
+							<option value="Zings">
+							<option value="Fusion">
+						</datalist>
+						<br><br>
+						
+						<label for="stumpsQuantityId">Quantity:</label>
+							<input type="number" name="stumpsQuantity" id="stumpsQuantityId" min="0" max="100">
+						<br><br>
+						
+						<label class="addTo" for="stumpsId">Add to cart</label>
+							<input type="checkbox" name="stumps" id="stumpsId" onclick="stumpsCartSelect();">
+							<img src="../F5_Images/cart.png" alt="Cart Image" width="20px" height="20px">
+							
+						<div id="stumpsPrice"></div>
+							
+					</div>
+					
+					<br>
+					<div id="total"></div>
+					<br>
+					
+					<div class="BottomBar">
+					
+						<div class="PD">
+							<h3><a href="Rasidu_PD.html" class="pageDeveloperLink">Page Developer</a></h3>
+						</div>
+						
+						<div class="PlaceOrder">
+							<img src="../F5_Images/money.png" alt="Money Image" width="60px" height="60px" style="float:left">
+							<br>
+							<input type="button" class="PO_Button" value="Place Order" onclick="checkOut();">
+							<br><br>
+						</div>
+						
+					</div>
+					
+			</fieldset>
+			
+			<div id="invoice"></div>
+			
+			<div>
+				<img id="arrowIcon" src="../F5_Images/arrow.png" alt="Arrow Image" width="20px" height="50px" style="float:left">
+				<br>
+				<a href="#navHeaderProduct" class="back_Top">BACK TO TOP</a>
+			</div>
+			
+		</form>
+	
+	</body>
+	
+</html>

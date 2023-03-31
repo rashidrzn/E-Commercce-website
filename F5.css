@@ -1,0 +1,1039 @@
+	
+					/* < ----- Presentation Page Styling -----> */
+	
+body.presentationBody {
+	background-image:url("./F5_Images/CR5.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+/* ---------- Table Styling ---------- */
+			
+table, th {
+	border-collapse:collapse;
+	border:3px inset aqua;
+}
+
+th {
+	padding:15px;
+	font-family:Arial;
+	font-size:35px;
+}
+
+.GMembers {
+	color:#f44336;
+	-webkit-text-stroke:2.5px #990000;
+}
+
+.Names {
+	color:black;
+	-webkit-text-stroke:1px yellow;
+}
+
+.IDname {
+	color:black;
+	-webkit-text-stroke:0.5px white;
+}
+
+div.memberDetails {
+	margin-top:-8.625%;
+	margin-left:52%;
+}
+
+div.PD_Link {
+	margin-top:4%;
+	margin-left:2.55%;
+}
+
+
+					/* < -----  Navigation Bar & Main Page Styling -----> */
+					
+
+/* ---------- NAV Bar Styling ---------- */
+
+* {
+	font-family: sans-serif;
+}
+#heading {
+	text-align: center;
+
+}
+
+.logo {
+	cursor: pointer;
+	margin-right: auto;
+}
+
+li, a, button {
+	font-weight: 700;
+	font-size: 1em;
+	color: #ecf0f1;
+	text-decoration: none;
+}
+
+header {
+	border:3px inset red;
+	border-radius:5px;
+	
+	background-image: url("./F5_Images/BG1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.875em 10%;
+	
+	 
+}
+
+.navpages {
+	list-style: none;
+}
+
+.navpages li:last-of-type{
+	margin-right: 1em;
+	border-right: 0.25em solid white;
+	height: 1.375em; 
+}
+
+.navpages li{
+	display: inline-block;
+	padding: 0px 1.75em;
+	border-left: 0.25em solid white;
+	height: 1.375em;
+}
+
+.navpages li a {
+	transition: 0.3s ease 0s;
+}
+
+.navpages li a:hover {
+	color: #DF7104;
+}
+
+button {
+	padding: 0.5625em 1.5625em;
+	background-color: #444444;
+	border: none;
+	border-radius: 3.125em;
+	cursor: pointer;
+	transition: 0.3s ease 0s;
+	
+}
+
+button:hover {
+	color:#444444;
+	background-color: gray;
+}
+
+/* ---------- Main Page Styling ---------- */
+
+body.homeBody {
+	background-image:url("./F5_Images/CR3.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+
+div.allStudentHome {
+	margin-top:31%;
+	margin-left:2%;
+}
+
+					/* < -----  Buy Products Page Styling -----> */
+
+body.productBody {
+	font-weight:bold;
+	color:white;
+	
+	background-image:url("./F5_Images/BG6.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.Products {
+	font-family:Arial;
+	color:white;
+}
+
+.addTo {
+	color:#DF7104;
+}
+
+#personal_D , #product_D {
+	font-size:20px;
+	font-family:Arial;
+	color:#DF7104;
+	padding:0.425%;
+}
+
+.personal_F , .product_F {
+	background-image:url("./F5_Images/BG7.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border:none;
+	border-radius:10px;
+}
+
+.personal_F {
+	margin-top:2%;
+}
+
+/* ---------- Row 1 ---------- */
+
+div.ProductBag {
+	background-image:url("./F5_Images/BG1.jpg");
+	color:#afaead;
+	
+	border:2px solid white;
+	border-radius:10px;
+	float:left;
+	padding:6px;
+	padding-bottom:105px;
+	
+	margin-left:4.25%;
+}
+
+div.ProductBat {
+	background-image:url("./F5_Images/BG1.jpg");
+	color:#afaead;
+	
+	border:2px solid white;
+	border-radius:10px;
+	float:left;
+	padding:6px;
+	
+	margin-left:4%;
+}
+
+div.ProductHeadWears {
+	background-image:url("./F5_Images/BG1.jpg");
+	color:#afaead;
+	
+	border:2px solid white;
+	border-radius:10px;
+	float:left;
+	padding:6px;
+	padding-bottom:105px;
+	
+	margin-left:4%;
+}
+
+div.ProductBall {
+	background-image:url("./F5_Images/BG1.jpg");
+	color:#afaead;
+	
+	border:2px solid white;
+	border-radius:10px;
+	float:left;
+	padding:6px;
+	padding-bottom:105px;
+	
+	margin-left:4%;
+}
+
+/* ---------- Row 2 ---------- */
+
+div.ProductGloves {
+	clear:both;
+	margin-top:1.275%;
+	
+	background-image:url("./F5_Images/BG1.jpg");
+	color:#afaead;
+	
+	border:2px solid white;
+	border-radius:10px;
+	float:left;
+	padding:6px;
+	padding-bottom:105px;
+	
+	margin-left:4.25%;
+}
+
+div.ProductCloth {
+	margin-top:1.275%;
+	
+	background-image:url("./F5_Images/BG1.jpg");
+	color:#afaead;
+	
+	border:2px solid white;
+	border-radius:10px;
+	float:left;
+	padding:6px;
+	padding-bottom:105px;
+	
+	margin-left:4%;
+}
+
+div.ProductPads {
+	margin-top:1.275%;
+	
+	background-image:url("./F5_Images/BG1.jpg");
+	color:#afaead;
+	
+	border:2px solid white;
+	border-radius:10px;
+	float:left;
+	padding:6px;
+	padding-bottom:65px;
+	
+	margin-left:4%;
+}
+
+div.ProductStumps {
+	margin-top:1.275%;
+	
+	background-image:url("./F5_Images/BG1.jpg");
+	color:#afaead;
+	
+	border:2px solid white;
+	border-radius:10px;
+	float:left;
+	padding:6px;
+	padding-bottom:52px;
+	
+	margin-left:4%;
+}
+
+#total {
+	clear:both;
+	
+	text-align:center;
+	font-family:Arial;
+	font-size:20px;
+	color:#DF7104;
+	padding:12px;
+	margin-top:72.25%;
+	margin-left:37%;
+	margin-right:37%;
+	margin-bottom:-72.25%;
+}
+
+/* ---------- Bottom Bar Styling ---------- */
+
+div.BottomBar {
+	
+	background-image:url("./F5_Images/BG1.jpg");
+	color:#afaead;
+	border-radius:10px;
+	
+	margin-left:4.25%;
+	margin-right:4.75%;
+}
+
+div.PD {
+	margin-top:1.295%;
+	margin-left:1.295%;
+	margin-right:51%;
+	
+	float:left;
+}
+
+div.PlaceOrder {
+	margin-top:78%;
+	margin-bottom:0.85%;
+	margin-left:76.8%;
+	padding:10px;
+}
+
+/* ---------- Place Order Button Styling ---------- */
+
+.PO_Button {
+	color:#DF7104;
+	background-color:black;
+	font-weight:bold;
+	font-size:15px;
+	
+	padding:7px;
+	margin-left:8.5%;
+	
+	border-radius:10px;
+	border-color:#DF7104;
+}
+
+.PO_Button:hover {
+	background-color:#474747;
+}
+
+/* ---------- Invoice Styling ---------- */
+
+#invoice {
+	border:2px solid gray;
+	font-size:18px;
+	
+	background-image:url("./F5_Images/BG1.jpg");
+	color:#afaead;
+	
+	margin-top:0.925%;
+	margin-left:4.25%;
+	margin-right:4.6%;
+	padding-left:25px;
+	padding-bottom:0.25%;
+}
+
+p.invoiceHeader {
+	color:#DF7104;
+	font-size:35px;
+}
+
+p.invoicePersonal {
+	color:#bcbcbc;
+	font-size:20px;
+}
+
+p.invoiceDetailHeader {
+	font-size:25px;
+}
+
+p.productTitle {
+	color:#DF7104;
+}
+
+p.totalBill {
+	color:#DF7104;
+	font-size:25px;
+}
+
+					/* < -----  Query Form Styling -----> */
+					
+body.queryBody {
+	background-image:url("./F5_Images/BG7.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+					
+#formbutton {
+    font-size: 1em;
+    padding: 9px 25px;
+    background-color: #DF7104;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+}
+
+#formbutton:hover {
+    background-color: #cd6905;
+}
+
+#container {
+    font-size: 1.25em;
+    margin-left: 1%;
+    width: 50%;
+    color: #fff;
+    font-weight: 500;
+    padding: 1%;
+    background-image: url("./F5_Images/BG6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#display_replacment {
+    margin-left: 1%;
+    width: 30%;
+    color: #fff;
+    font-weight: 500;
+    padding: 1%;
+    background-image: url("./F5_Images/BG6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#creator {
+    position: fixed;
+    bottom: 2.5em;
+    right: 3.125em;
+}
+
+					/* < -----  Additional Content Page Styling -----> */
+					
+body.contentBody {
+	background-image:url("F5_Images/BG7.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#ACP_Topic {
+	margin-top:2%;
+	color:white;
+	font-family:Arial;
+	text-align:center;
+}
+
+#team {
+	margin-left:14%;
+	border-radius:10px;
+}
+
+/* ------ Common Styles ------ */
+input.SLC , input.INC , input.NZC , input.PAC , input.ENC , input.SAC , input.AFC , input.BAC , input.AUC , input.WIC {
+	border:4px inset white;
+	border-radius:10px;
+	height:125px;
+	width:700px;
+	
+	font-family:Arial;
+	font-size:30px;
+	font-weight:bold;	
+}
+
+input.SLC:hover , input.INC:hover , input.NZC:hover , input.PAC:hover , input.ENC:hover , input.SAC:hover , input.AFC:hover , input.BAC:hover , input.AUC:hover , input.WIC:hover {
+	transition:1.75s;
+	transform:scale(1.05);	
+}
+
+#SL_Details , #IN_Details , #NZ_Details , #PA_Details , #EN_Details , #SA_Details , #AF_Details , #BA_Details , #AU_Details , #WI_Details {
+	font-family:Arial;
+	font-weight:bold;
+	color:white;
+	text-align:center;
+	
+	margin-left:2.5%;
+	margin-right:2.5%;
+}
+
+/* ------ SriLanka Styles ------ */
+input.SLC {
+	background-image:url("F5_Images/SL.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	color:#ebb204;
+	-webkit-text-stroke:1.5px blue;
+}
+
+#SriLanka {
+	margin-top:2.5%;
+	margin-left:22%;
+	margin-right:22%;
+}
+
+/* ------ India Styles ------ */
+input.INC {
+	background-image:url("F5_Images/IN.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	color:#f67e00;
+	-webkit-text-stroke:1.5px #3d85c6;
+}
+
+#India {
+	margin-top:0.5%;
+	margin-left:22%;
+	margin-right:22%;
+}
+
+/* ------ Pakistan Styles ------ */
+input.PAC {
+	background-image:url("F5_Images/PA.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	color:#38761d;
+	-webkit-text-stroke:2px #8fce00;
+}
+
+#Pakistan {
+	margin-top:0.5%;
+	margin-left:22%;
+	margin-right:22%;
+}
+
+/* ------ England Styles ------ */
+input.ENC {
+	background-image:url("F5_Images/EN.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	color:gray;
+	-webkit-text-stroke:1.5px aqua;
+}
+
+#England {
+	margin-top:0.5%;
+	margin-left:22%;
+	margin-right:22%;
+}
+
+/* ------ South Africa Styles ------ */
+input.SAC {
+	background-image:url("F5_Images/SA.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	color:yellow;
+	-webkit-text-stroke:2px #38761d;
+}
+
+#South_Africa {
+	margin-top:0.5%;
+	margin-left:22%;
+	margin-right:22%;
+}
+
+/* ------ Afghanistan Styles ------ */
+input.AFC {
+	background-image:url("F5_Images/AF.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	color:blue;
+	-webkit-text-stroke:1px white;
+}
+
+#Afghanistan {
+	margin-top:0.5%;
+	margin-left:22%;
+	margin-right:22%;
+}
+
+/* ------ Bangladesh Styles ------ */
+input.BAC {
+	background-image:url("F5_Images/BA.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	color:red;
+	-webkit-text-stroke:2px #990000;
+}
+
+#Bangladesh {
+	margin-top:0.5%;
+	margin-left:22%;
+	margin-right:22%;
+}
+
+/* ------ Australia Styles ------ */
+input.AUC {
+	background-image:url("F5_Images/AU.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	color:yellow;
+	-webkit-text-stroke:1.5px #bf9000;
+}
+
+#Australia {
+	margin-top:0.5%;
+	margin-left:22%;
+	margin-right:22%;
+}
+
+/* ------ West Indies Styles ------ */
+input.WIC {
+	background-image:url("F5_Images/WI.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	color:#f1c232;
+	-webkit-text-stroke:2px #744700;
+}
+
+#West_Indies {
+	margin-top:0.5%;
+	margin-left:22%;
+	margin-right:22%;
+}
+
+/* ------ New Zealand Styles ------ */
+input.NZC {
+	background-image:url("F5_Images/NZ.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	color:black;
+	-webkit-text-stroke:1.5px gray;
+}
+
+#New_Zealand {
+	margin-top:0.5%;
+	margin-left:22%;
+	margin-right:22%;
+}
+
+p.achievement {
+	color:#fa7516;
+}
+
+p.failure {
+	color:red;
+}
+
+div.backToTop {
+	margin-left:2%;
+}
+
+div.allStudentContent {
+	margin-top:-2.5%;
+	margin-left:84%;
+}
+
+					/* < ----- SVG Styling -----> */
+
+body.svgBody {
+	background-image:url("./F5_Images/BG7.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+svg {
+	margin-top:0px;
+	margin-right:4%;
+	margin-left:4%;
+}
+
+text.products , text.quiz , text.SD , text.thumbnail , text.query , text.content , text.home {
+	fill:#f6ae44;
+	font-weight:bold;
+	font-family:Arial;
+}
+
+#group1A:hover circle , #group1A:hover text , #group3A:hover circle , #group3A:hover text , #group5A:hover circle , #group5A:hover text {
+	stroke:#fd7524;
+	transition:1.75s;
+	transform:scale(0.95);
+}
+
+#group2A:hover circle , #group2A:hover text  , #group4A:hover circle , #group4A:hover text , #group6A:hover circle , #group6A:hover text {
+	stroke:#fd7524;
+	transition:1.75s;
+	transform:scale(1.05);
+}
+
+#group1:hover circle , #group2:hover circle , #group3:hover circle , #group4:hover circle , #group5:hover circle , #group6:hover circle {
+	fill:#444444;
+}
+
+#group7:hover rect , #group7:hover text {
+	stroke:#fd7524;
+	fill:white;
+}
+
+div.titleSVG {
+	font-family:Arial;
+	font-size:20px;
+	text-align:center;
+	color:#fd7524;
+	
+	margin-top:-50%;
+	margin-left:5%;
+	margin-right:75%;
+}
+
+div.sectSVG {
+	margin-left:0.25%;
+}
+
+img.logoSVG {
+	margin-top:-10%;
+	margin-left:87%;
+}
+
+div.yusufPage {
+	margin-top:37%;
+	margin-left:5%;
+}
+
+					/* < ----- Quiz Styling -----> */
+
+body.quizBody {
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    background-color:black;
+    
+}
+
+
+
+#showtime{
+    position: fixed;
+    color: #ffffff;
+    font-size: medium;
+    width: 10%;
+    
+    padding: 30px;
+  
+    height:5%;
+    right:10px;
+    top: 180px;
+}
+#starttime{
+    position: fixed;
+    color: #ffffff;
+    font-size: medium;
+    width: 10%;
+    
+    padding: 30px;
+  
+    right: 10px;
+    height:5%;
+    top: 120px;
+}
+
+.incorrect{
+    color: #DE7104;
+    font-size: medium;
+    font-weight: bold;
+    
+    background-color:red;
+}
+
+.header{
+
+    text-align: center;
+    margin: 0px;
+    height: 75px;
+    padding: 10px;
+}
+
+
+.quistionair{
+    text-align: center;
+   /* background-image: linear-gradient(black, yellow);*/
+   margin-left: 10%;
+   margin-top: 150px;
+   background-image:url("F5_Images/BG7.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 254);
+    border: 2px solid black;
+    width: 75%;
+    height: 350pxpx;
+    box-sizing: border-box;
+    
+    
+   
+}
+.quistionair .quistion{
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 50px;
+   
+
+}
+
+.quistionair .quistion:hover{
+    background-image:url("F5_Images/BG7.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+    
+
+}
+.quistionair .answers{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 20px;
+    text-decoration: dashed;
+    padding: 5px;
+    display: block;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.button{ 
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin: 20px;
+}
+#score{
+   
+    color: #DE7104 ;
+   
+    border-color: #DE7104;
+    border-radius: 10px;
+    margin-right: 5px;
+    height: 45px;
+    text-align: center;
+    font-weight: bold;
+    position: fixed;
+    width: 150px;
+    
+    
+    border-radius: 10px;
+    bottom: 10px;
+    right: 0;
+}
+
+#submit{
+   
+    color: #DE7104 ;
+    background-color: black;
+    border-color: #DE7104;
+    border-radius: 10px;
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    height: 45px;
+    position: fixed;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+    width: 150px;
+    bottom: 70px;
+    right: 0px;
+}
+#submit:hover{
+    background-color: #474747;
+}
+
+#A1,#A2,#A3,#A4,#A5,#A6,#A7,#A8,#A9,#A10{
+    background-image:url("F5_Images/BG7.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+    color: #DE7104;
+    
+    border-radius: 20px;
+    height: 25px;
+    
+}
+
+div.creator3 {
+	margin-left:2%;
+}
+
+					/* < ----- Student Detail Styling -----> */	
+
+body.STDBody {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:url("F5_Images/BG7.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+    margin: 0;
+    padding: 0;
+
+}
+
+.heading{
+    text-align: center;
+    font-size: large;
+    color: white;
+    margin-top: 30px;
+    background-image:url("F5_Images/BG7.jpg");
+    padding: 10px;
+}
+
+
+
+.content{
+    width:1200px;
+    min-height:300px;
+    background-image:url("F5_Images/BG7.jpg");
+    margin:100px auto 0;
+    display: flex;
+}
+
+.content .box{
+    position: relative;
+    width: 340px;
+    height:300px;
+    background: rgb(255, 255, 255);
+    margin: 25px ;
+    box-sizing: border-box;
+   /* display: inline-block;  */
+
+}
+
+.content .box .imgbox{
+    position: relative;
+   overflow: hidden; 
+}
+.content .box .imgbox img{
+    width: 250px;
+    height: 300px;
+    transition: transform 2s;
+}  
+.content .box:hover .imgbox img{
+    transform: scale(1.1);
+
+}
+.content .box .text{
+    position: absolute;
+    width: 220px;
+    height: 280px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    top: 10px;
+    background-image:url("F5_Images/BG7.jpg");
+    transform:scaleY(0);
+    transition: transform  2s;
+}
+
+.content .box:hover .text{
+    transform: scaleY(1);
+
+}
+.content .box .text .info{
+    position: absolute;
+    top: 100px;
+    font-weight: bold;
+    color:rgb(192, 221, 24);
+    text-align: center;
+    
+}
+
+.content .box .text .info h2 {
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.content .box .text .info p{
+    color: aliceblue;
+    margin-left:40px;
+}
+
+img.logoSTD {
+	margin-top:-45%;
+	margin-left:87%;
+}
+					
+
+/* ---------- Page Developer link Styling ---------- */
+			
+a.pageDeveloperLink:link {
+	border:2px solid black;
+	border-radius:10px;
+	text-align:center;
+	text-decoration:none;
+	color:white;
+	background-color:black;
+	padding:4px;
+}
+
+a.pageDeveloperLink:visited {
+	color:white;
+}
+
+a.pageDeveloperLink:hover {
+	background-color:#474747;
+}
+
+a.pageDeveloperLink:active {
+	color:yellow;
+}
+
+/* ---------- Back to top Styling ---------- */
+
+a.back_Top:link {
+	font-family:Arial;
+	font-weight:bold;
+	font-size:18px;
+	color:#DF7104;
+	text-decoration:none;
+	
+	padding-left:15px;
+}
+
+a.back_Top:visited {
+	color:#DF7104;
+}
+
+a.back_Top:hover {
+	color:yellow;
+}
